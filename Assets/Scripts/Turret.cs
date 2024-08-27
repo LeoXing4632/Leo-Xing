@@ -64,7 +64,7 @@ public class Turret : MonoBehaviour
     }
     private void LockTarget()
     {
-        Vector3 dir = target.positon - transform.position;
+        Vector3 dir = target.position - transform.position;
         Quaternion rotation = Quaternion.LookRotation(dir);
         Quaternion lerpRot = Quaternion.Lerp(partRotate.rotation, rotation, Time.deltaTime * rotSpeed);
         partRotation.rotation = Quaternion.Euler(new Vector3(0, lerpRot.eulerAngles.y, 0));
