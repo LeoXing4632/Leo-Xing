@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
-    public float range = 5;
+    public float range = 5;// the range of the turret
     public string enemyTag = "Enemy";
     public Transform target;
     public Transform partRotate;
@@ -16,7 +16,7 @@ public class Turret : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("UpdataTarget", 0, 0.5f);
+        InvokeRepeating("UpdateTarget", 0, 0.5f);
         countDown = 1/bulletRate;
     }
 
@@ -30,7 +30,14 @@ public class Turret : MonoBehaviour
         if(countDown <= 0)
         {
             Debug.Log("bulletPoint");
-            Instantiate(bulletPrefab, bulletPoint.position, bulletPoint.rotation);
+            GameObject bulletGo = Instantiate(bulletPrefab, bulletPoint.position, bulletPoint.rotation);
+            Bullet bullet = bulletGo.GetComponent<Bullet>();
+            if (bullet == null )
+            { 
+                bullet = bulletGo.AddComponent<Bullet>();
+            
+            }
+            bullet.SetTarget(target);
             countDown = 1 / bulletRate;
         }
     }
@@ -38,6 +45,8 @@ public class Turret : MonoBehaviour
     {
         Gizmos.DrawWireSphere(transform.position, range);
     }
+
+     
     private void UpdateTarget()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
@@ -67,7 +76,7 @@ public class Turret : MonoBehaviour
         Vector3 dir = target.position - transform.position;
         Quaternion rotation = Quaternion.LookRotation(dir);
         Quaternion lerpRot = Quaternion.Lerp(partRotate.rotation, rotation, Time.deltaTime * rotSpeed);
-        partRotation.rotation = Quaternion.Euler(new Vector3(0, lerpRot.eulerAngles.y, 0));
+        //.rotation = Quaternion.Euler(new Vector3(0, lerpRot.eulerAngles.y, 0));
     }
-    //rotation of the turret when there is a mode
+    //rotation of the turret when there is a modeling
 }
