@@ -6,10 +6,10 @@ public class Turret : MonoBehaviour
 {
     public float range = 5;// the range of the turret
     public string enemyTag = "Enemy";
-    public Transform target;
-    public Transform partRotate;
+    public Transform target;// Attacking the enemy
+    public Transform partRotate;//rotation of the turret
     public float rotSpeed = 10;
-    public float bulletRate = 2f;
+    public float bulletRate = 2f;//spped of the bullet 
     private float countDown = 0;    
     public Transform bulletPoint;
     public GameObject bulletPrefab;
@@ -27,9 +27,9 @@ public class Turret : MonoBehaviour
         if (target == null) return;
         LockTarget();
         countDown -= Time.deltaTime;
-        if(countDown <= 0)
+        if(countDown <= 0)//Less than or equal to 0 to fire bullets
         {
-            Debug.Log("bulletPoint");
+            Debug.Log("bulletPoint");//
             GameObject bulletGo = Instantiate(bulletPrefab, bulletPoint.position, bulletPoint.rotation);
             Bullet bullet = bulletGo.GetComponent<Bullet>();
             if (bullet == null )
@@ -47,9 +47,9 @@ public class Turret : MonoBehaviour
     }
 
      
-    private void UpdateTarget()
+    private void UpdateTarget()//Find the target. Lock it down.
     {
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);//Attacking the nearest enemy
         float minDistance = Mathf.Infinity;
         Transform nearestEnemy = null;
         foreach (var enemy in enemies)
@@ -58,20 +58,20 @@ public class Turret : MonoBehaviour
             if (distance < minDistance )
             {
                 minDistance = distance;
-                nearestEnemy = enemy.transform;
+                nearestEnemy = enemy.transform;//Find the nearest enemy.
             }
         
         }
         if(minDistance < range)
         {
-            target = nearestEnemy;
+            target = nearestEnemy;//find the nerest enemy
         }
         else
         {
             target = null;
         }
     }
-    private void LockTarget()
+    private void LockTarget()//Lock on target and rotate turret to the enemy
     {
         Vector3 dir = target.position - transform.position;
         Quaternion rotation = Quaternion.LookRotation(dir);

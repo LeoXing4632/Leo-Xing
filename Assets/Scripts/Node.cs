@@ -6,7 +6,7 @@ public class Node : MonoBehaviour
 {
     private Renderer render;
     private Color initColor;
-    private Color hoverColor = Color.gray;//change color when after modeling
+    private Color hoverColor = Color.gray;//change color 
     public GameObject turretPrefab;
     // Start is called before the first frame update
     void Start()
@@ -22,15 +22,16 @@ public class Node : MonoBehaviour
     }
     private void OnMouseEnter()
     {
-        render.material.color = hoverColor;
+        render.material.color = hoverColor;//change color as the mouse touch it
     }
     private void OnMouseExit()
     {
-        render.material.color = initColor;
+        render.material.color = initColor;//change back to the normal color 
     }
     private void OnMouseDown()
     {
         Debug.Log("loding the turret");
-        Instantiate (turretPrefab, transform.position, Quaternion.identity);
+        Instantiate (turretPrefab, transform.position, Quaternion.identity);//building the Turret on the nodes
+
     }
 }

@@ -5,11 +5,11 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     private Transform m_Target;
-    public float speed = 80;
-    public float damage = 50;
+    public float speed = 80;//Speed of the bullet
+    public float damage = 50;//Damage of the bullet
     public void SetTarget(Transform target)
     { 
-        m_Target = target;
+        m_Target = target;//aiming to the enmey
     
     }
     // Start is called before the first frame update
@@ -35,7 +35,7 @@ public class Bullet : MonoBehaviour
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
         transform.LookAt(m_Target); 
     }
-    private void HitTarget()
+    private void HitTarget()//to Destroy the enemy 
     {
         EnemyDamage();
        

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PathPoints : MonoBehaviour
 {
     public static Transform[] pathPoints;
-    private void Awake( ) 
+    private void Awake( ) //Finding Path Points
     
     { 
         pathPoints = new Transform[transform.childCount];
