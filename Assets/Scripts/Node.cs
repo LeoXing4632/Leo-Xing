@@ -6,13 +6,15 @@ public class Node : MonoBehaviour
 {
     private Renderer render;
     private Color initColor;
-    private Color hoverColor = Color.gray;//change color 
+    public Color hoverColor = Color.blue;//Change color
+    public Vector3 offset = new Vector3 (0, 0.5f,0);
     public GameObject turretPrefab;
     // Start is called before the first frame update
     void Start()
     {
-        initColor = render.material.color;
         render = GetComponent<MeshRenderer>();
+        initColor = render.material.color;
+       
     }
 
     // Update is called once per frame
@@ -31,7 +33,7 @@ public class Node : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("loding the turret");
-        Instantiate (turretPrefab, transform.position, Quaternion.identity);//building the Turret on the nodes
+        Instantiate (turretPrefab, transform.position + offset, Quaternion.identity);//building the Turret on the nodes
 
     }
 }
