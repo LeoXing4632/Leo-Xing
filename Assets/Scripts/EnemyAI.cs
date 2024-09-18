@@ -32,7 +32,8 @@ public class NewBehaviourScript : MonoBehaviour
     }
     private void PathEnd()//move to the end and Destroy = lose 
     {
-        EnemySpawner.EnemyAlive--;
         Destroy(gameObject);
+        EnemySpawner.EnemyAlive--;
+        
     }
 }

@@ -29,14 +29,16 @@ public class Turret : MonoBehaviour
         countDown -= Time.deltaTime;
         if(countDown <= 0)//Less than or equal to 0 to fire bullets
         {
-            Debug.Log("bulletPoint");//
+            Debug.Log("bullet");
             GameObject bulletGo = Instantiate(bulletPrefab, bulletPoint.position, bulletPoint.rotation);
             Bullet bullet = bulletGo.GetComponent<Bullet>();
             if (bullet == null )
             { 
                 bullet = bulletGo.AddComponent<Bullet>();
+
             
             }
+
             bullet.SetTarget(target);
             countDown = 1 / bulletRate;
         }
@@ -76,7 +78,7 @@ public class Turret : MonoBehaviour
         Vector3 dir = target.position - transform.position;
         Quaternion rotation = Quaternion.LookRotation(dir);
         Quaternion lerpRot = Quaternion.Lerp(partRotate.rotation, rotation, Time.deltaTime * rotSpeed);
-        //.rotation = Quaternion.Euler(new Vector3(0, lerpRot.eulerAngles.y, 0));
+        //rotation = Quaternion.Euler(new Vector3(0, lerpRot.eulerAngles.y, 0));
     }
     //rotation of the turret when there is a modeling
 }

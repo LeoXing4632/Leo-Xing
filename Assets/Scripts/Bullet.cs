@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -33,12 +34,14 @@ public class Bullet : MonoBehaviour
         
         }
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
-        transform.LookAt(m_Target); 
+        transform.LookAt(m_Target);
+
     }
+
     private void HitTarget()//to Destroy the enemy 
     {
         EnemyDamage();
-       
+         
         Destroy(gameObject); 
     }
     private void EnemyDamage()
@@ -47,6 +50,16 @@ public class Bullet : MonoBehaviour
         if(enemyHp != null)
         {
             enemyHp.Damage(damage);
+        }
+    }
+
+    private void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.name);
+
+        if(collision.transform == m_Target)
+        {
+            HitTarget();
         }
     }
 }
