@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InitHealth: 100
+  hpBar: {fileID: 2885270826946077388}
 --- !u!1 &1355956927088032110
 GameObject:
   m_ObjectHideFlags: 0

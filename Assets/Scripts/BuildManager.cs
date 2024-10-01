@@ -5,17 +5,17 @@ using UnityEngine;
 public class BuildManager : MonoBehaviour
 {
     public static BuildManager Instance;
-    public GameObject turretPrefeb;
+    public GameObject selctedTurret;
 
     public GameObject SelectedTurret
     {
         get
         {
-            return turretPrefeb;
+            return selctedTurret;
         }
         set
         {
-            turretPrefeb = value;
+            selctedTurret = value;
         }
     }
 

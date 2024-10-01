@@ -401,3 +401,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   InitHealth: 100
+  hpBar: {fileID: 4473242789328840455}

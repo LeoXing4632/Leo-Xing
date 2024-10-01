@@ -24,6 +24,7 @@ public class Node : MonoBehaviour
     }
     private void OnMouseEnter()
     {
+        if (BuildManager.Instance.SelectedTurret == null) return; //when play not select turret doe3s not change color 
         render.material.color = hoverColor;//change color as the mouse touch it
     }
     private void OnMouseExit()
@@ -32,6 +33,7 @@ public class Node : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        if(BuildManager.Instance.SelectedTurret == null) return;
         Debug.Log("loding the turret");
         Instantiate (BuildManager.Instance.SelectedTurret, transform.position + offset, Quaternion.identity);//building the Turret on the nodes
 
