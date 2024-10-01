@@ -1177,8 +1177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &81180085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -1755,8 +1754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &158769082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2178,8 +2176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &201583594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3033,8 +3030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &280159837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3582,135 +3578,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 421406748}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &337567093
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 337567098}
-  - component: {fileID: 337567097}
-  - component: {fileID: 337567096}
-  - component: {fileID: 337567095}
-  - component: {fileID: 337567094}
-  m_Layer: 0
-  m_Name: Capsule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &337567094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337567093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4119c47b630ed344fa93d31c0e292158, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  range: 9.54
-  enemyTag: Enemy
-  target: {fileID: 0}
-  partRotate: {fileID: 337567098}
-  rotSpeed: 10.09
-  bulletRate: 3.02
-  bulletPoint: {fileID: 607318572}
-  bulletPrefab: {fileID: 1041627420886956228, guid: 28d7a280075fc014d9d8a3d649dffd08,
-    type: 3}
---- !u!136 &337567095
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337567093}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &337567096
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337567093}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &337567097
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337567093}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &337567098
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337567093}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.41, y: 1.67, z: -19.86}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &348384017 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -4092,8 +3959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &365722353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -4786,8 +4652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &421662895 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -4895,8 +4760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &432632136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4998,8 +4862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &438756398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5295,8 +5158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &453309206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -5597,8 +5459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &461555405 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -5993,8 +5854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &480245426 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -6014,8 +5874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &487817114 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -6242,8 +6101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &501842270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6433,8 +6291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &509995259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6542,8 +6399,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &522614004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6827,8 +6683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &560863358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6942,8 +6797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &579383203 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -6963,8 +6817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &582729049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7072,8 +6925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &587275309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7181,8 +7033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &589553189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7290,8 +7141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &600592603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7386,37 +7236,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1916642320}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &607318571
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 607318572}
-  m_Layer: 0
-  m_Name: bulletPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &607318572
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 607318571}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.973, y: 2.09, z: -18.771}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &608483837
 GameObject:
   m_ObjectHideFlags: 0
@@ -7541,8 +7360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &610798592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -7822,8 +7640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &639408468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8037,8 +7854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &673876758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8140,8 +7956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &676814746
 GameObject:
   m_ObjectHideFlags: 0
@@ -8362,8 +8177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &689926854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8823,8 +8637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &749013633 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -8950,8 +8763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &774363358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9278,8 +9090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &799522432 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9305,8 +9116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &803394003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9326,8 +9136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &805294046
 GameObject:
   m_ObjectHideFlags: 0
@@ -9557,8 +9366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &852081953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9668,8 +9476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &872721402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9767,8 +9574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &902418276 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9781,6 +9587,52 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1786431520}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &911514511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911514513}
+  - component: {fileID: 911514512}
+  m_Layer: 0
+  m_Name: BuildManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &911514512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911514511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee6da13b0f7f3c14f83e6bd5bc8a692a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turretPrefeb: {fileID: 3253373260004654425, guid: 12de4e5401e89f243b5bd7781fe78f2d,
+    type: 3}
+--- !u!4 &911514513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911514511}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &912608688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9882,8 +9734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &912797887 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9909,8 +9760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &919147191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -10030,8 +9880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &949014738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10133,8 +9982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &950653634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10236,8 +10084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &951060874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10505,8 +10352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &958438510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -10620,8 +10466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &966239603
 GameObject:
   m_ObjectHideFlags: 0
@@ -10848,8 +10693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &982308554
 GameObject:
   m_ObjectHideFlags: 0
@@ -11195,8 +11039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1049339234 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -11331,8 +11174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1058745242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11440,8 +11282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1076300099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11660,8 +11501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1097906727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11775,8 +11615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1102913270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11878,8 +11717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1103546405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11981,8 +11819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1108774344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12096,8 +11933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1134891166 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -12117,8 +11953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1156555895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12220,8 +12055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1164238655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12401,8 +12235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1184917952 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -12428,8 +12261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1217521133 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -12752,8 +12584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1250594912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12845,8 +12676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1253814931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12938,8 +12768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1257067098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13041,8 +12870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1272217462
 GameObject:
   m_ObjectHideFlags: 0
@@ -13334,8 +13162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1298212827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13437,8 +13264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1299320329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13540,8 +13366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1302438854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13643,8 +13468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1308701065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13752,8 +13576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1315129179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13855,8 +13678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1316637625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13958,8 +13780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1319838126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14061,8 +13882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1327894859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14252,8 +14072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1340957588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14273,8 +14092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1351671036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14372,8 +14190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1369386361 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14393,8 +14210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1373108031
 GameObject:
   m_ObjectHideFlags: 0
@@ -14527,8 +14343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1376693758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14636,8 +14451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1379820982 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14663,8 +14477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1399475814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14854,8 +14667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1401739807 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14875,8 +14687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1404379915 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14984,8 +14795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1411750711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -15011,8 +14821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1421561426 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -15032,8 +14841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1422021383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15125,8 +14933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1427201874 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -15146,8 +14953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1427724066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15249,8 +15055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1433468679 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -15270,8 +15075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1436397061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15363,8 +15167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1437231460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15456,8 +15259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1437764085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -15483,8 +15285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1445838632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15592,8 +15393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1458907635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15695,8 +15495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1464745978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15798,8 +15597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1467717992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15901,8 +15699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1469190563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16004,8 +15801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1469563761
 GameObject:
   m_ObjectHideFlags: 0
@@ -16056,8 +15852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1486941617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16077,8 +15872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1490771974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16180,8 +15974,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1498317461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16283,8 +16076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1499220627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16454,8 +16246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1514659125 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16481,8 +16272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1541573204 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16580,8 +16370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1542576742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16601,8 +16390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1542654960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16622,8 +16410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1548857666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16725,8 +16512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1550056209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16818,8 +16604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1550210828 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16845,8 +16630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1558351640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16948,8 +16732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1558973348 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16969,8 +16752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1559511472 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16990,8 +16772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1560169848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17011,8 +16792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1567557003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17032,8 +16812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1570208804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17135,8 +16914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1581262746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17238,8 +17016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1584338515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17341,8 +17118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1588302825 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17362,8 +17138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 1, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1589584318 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17383,8 +17158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1589806872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17486,8 +17260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1589963049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17589,8 +17362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1593969235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17776,8 +17548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1605426036 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17875,8 +17646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1618455206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17902,8 +17672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1623993245 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17923,8 +17692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1624929459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18022,8 +17790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1639252603 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -18043,8 +17810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1639334433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18136,8 +17902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1655277068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18239,8 +18004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1655446879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -18260,8 +18024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1655733527 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -18281,8 +18044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1668194239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18384,8 +18146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1669248101
 GameObject:
   m_ObjectHideFlags: 0
@@ -18508,8 +18269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1681654467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18611,8 +18371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1690715601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18808,8 +18567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1716939057 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -18829,8 +18587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1723347748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18932,8 +18689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1730069023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19035,8 +18791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1733435562 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19056,8 +18811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1737445576 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19270,8 +19024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1762484490 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19291,8 +19044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1768929442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19394,8 +19146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1786431520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19487,8 +19238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1790418888 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19722,8 +19472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1804443861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19743,8 +19492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1805413405 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20096,8 +19844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1813460230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20189,8 +19936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1814623227 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20210,8 +19956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1820677960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20319,8 +20064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1844682533 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20340,8 +20084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1846161088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20443,8 +20186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1847805503 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20464,8 +20206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1852541929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20573,8 +20314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1857133458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20666,8 +20406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1879378714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20759,8 +20498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1892298644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20852,8 +20590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1904733143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20945,8 +20682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1907369742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20966,8 +20702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1916642320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21069,8 +20804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1932705857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21172,8 +20906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1933512492 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21193,8 +20926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1945775054 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21214,8 +20946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1949289304 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21241,8 +20972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1972957887 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21262,8 +20992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1974389580 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21283,8 +21012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1979237953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21304,8 +21032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1983757136 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21325,8 +21052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &1987583799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21434,8 +21160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1993105530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21455,8 +21180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1993570203 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21476,8 +21200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &1997729021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21497,8 +21220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &2009205989
 GameObject:
   m_ObjectHideFlags: 0
@@ -21549,8 +21271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2020029323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21652,8 +21373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &2020289290 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21673,8 +21393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2027661865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21766,8 +21485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2029146952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21869,8 +21587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2033960190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21972,8 +21689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2034850872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22075,8 +21791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2044200575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22178,8 +21893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2055707770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22281,8 +21995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2058856982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22384,8 +22097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2058899927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22477,8 +22189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &2059810200 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -22498,8 +22209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2061002253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22601,8 +22311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &2062159028 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -22622,8 +22331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2068703729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22725,8 +22433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &2087162085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -22746,8 +22453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &2093186151 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -22767,8 +22473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2095032572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22870,8 +22575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &2107229298
 GameObject:
   m_ObjectHideFlags: 0
@@ -22970,8 +22674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2122204119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23073,8 +22776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &2132566780
 GameObject:
   m_ObjectHideFlags: 0
@@ -23199,8 +22901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2138930911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23302,8 +23003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2139290066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23405,8 +23105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &2141214409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23508,8 +23207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1 &2141813289
 GameObject:
   m_ObjectHideFlags: 0
@@ -23634,8 +23332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1001 &7964186537806798764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23727,8 +23424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
-  offset: {x: 0, y: 0.5, z: 0}
-  turretPrefab: {fileID: 337567093}
+  offset: {x: 0, y: 2.5, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -23741,5 +23437,4 @@ SceneRoots:
   - {fileID: 608483841}
   - {fileID: 445413913}
   - {fileID: 359283089}
-  - {fileID: 337567098}
-  - {fileID: 607318572}
+  - {fileID: 911514513}

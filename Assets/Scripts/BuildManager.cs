@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletManager : MonoBehaviour
+public class BuildManager : MonoBehaviour
 {
-    public static BulletManager Instance;
+    public static BuildManager Instance;
     public GameObject turretPrefeb;
 
     public GameObject SelectedTurret

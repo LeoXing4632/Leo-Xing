@@ -7,8 +7,8 @@ public class Node : MonoBehaviour
     private Renderer render;
     private Color initColor;
     public Color hoverColor = Color.blue;//Change color
-    public Vector3 offset = new Vector3 (0, 0.5f,0);
-    public GameObject turretPrefab;
+    public Vector3 offset = new Vector3 (0, 1.5f,0);
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +33,7 @@ public class Node : MonoBehaviour
     private void OnMouseDown()
     {
         Debug.Log("loding the turret");
-        Instantiate (turretPrefab, transform.position + offset, Quaternion.identity);//building the Turret on the nodes
+        Instantiate (BuildManager.Instance.SelectedTurret, transform.position + offset, Quaternion.identity);//building the Turret on the nodes
 
     }
 }
