@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shop : MonoBehaviour
+public class Shop : MonoBehaviour
 {
-    public GameObject standardTurret;
+    public TurretDesign standardTurret;
+    public TurretDesign ArrowTurret;
  public void OnPurseStandardTurret()
     {
         Debug.Log("BUY StandardTurret");

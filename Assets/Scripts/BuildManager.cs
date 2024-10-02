@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BuildManager : MonoBehaviour
 {
     public static BuildManager Instance;
-    public GameObject selctedTurret;
+    public TurretDesign selctedTurret;
 
-    public GameObject SelectedTurret
+    public TurretDesign SelectedTurret
     {
         get
         {
@@ -18,20 +19,17 @@ public class BuildManager : MonoBehaviour
             selctedTurret = value;
         }
     }
+    //if 
+    public bool CanBuild
+    {
+        get
+        {
+            return SelectedTurret != null && SelectedTurret.prefab != null; 
+        }
+    }
 
     private void Awake()
     {
         Instance = this;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

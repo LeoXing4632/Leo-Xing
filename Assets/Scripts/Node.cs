@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Node : MonoBehaviour
 {
     private Renderer render;
     private Color initColor;
     public Color hoverColor = Color.blue;//Change color
-    public Vector3 offset = new Vector3 (0, 1.5f,0);
-    
+    public Vector3 offset = new Vector3(0, 1.5f, 0);
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,14 +19,10 @@ public class Node : MonoBehaviour
        
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     private void OnMouseEnter()
     {
-        if (BuildManager.Instance.SelectedTurret == null) return; //when play not select turret doe3s not change color 
+        if (EventSystem.current.IsPointerOverGameObject()) return;
+        if (!BuildManager.Instance.CanBuild) return; //when play not select turret doe3s not change color 
         render.material.color = hoverColor;//change color as the mouse touch it
     }
     private void OnMouseExit()
@@ -33,9 +31,21 @@ public class Node : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if(BuildManager.Instance.SelectedTurret == null) return;
+        if(EventSystem.current.IsPointerOverGameObject()) return;
+        if (!BuildManager.Instance.CanBuild) return;
         Debug.Log("loding the turret");
-        Instantiate (BuildManager.Instance.SelectedTurret, transform.position + offset, Quaternion.identity);//building the Turret on the nodes
+        BuildTurret();
+        
 
     }
+    private Vector3 GetPositon()
+    {
+        return transform.position + offset;
+    }
+    //creat turret
+    public void BuildTurret()
+    {
+        Instantiate(BuildManager.Instance.SelectedTurret.prefab, GetPositon(), Quaternion.identity);//building the Turret on the nodes
+    }
+  
 }
