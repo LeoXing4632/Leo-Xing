@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class BuildManager : MonoBehaviour
+public class BuildManager: MonoBehaviour
 {
     public static BuildManager Instance;
     public TurretDesign selctedTurret;
@@ -17,6 +17,16 @@ public class BuildManager : MonoBehaviour
         set
         {
             selctedTurret = value;
+        }
+    }
+    
+    //if the player has money 
+    public bool HasEnoughMoney
+    {
+        get
+        {
+            return PlayerStatus.Money >= SelectedTurret.cost;
+        
         }
     }
     //if 

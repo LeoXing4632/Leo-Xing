@@ -1176,8 +1176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &81180085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -1753,8 +1754,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &158769082
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2193,8 +2195,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &201583594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3047,8 +3050,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &280159837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3660,7 +3664,7 @@ Transform:
   m_GameObject: {fileID: 358387199}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.5, y: -2.6, z: -13.9}
+  m_LocalPosition: {x: 1.51, y: -2.6, z: -13.83}
   m_LocalScale: {x: 17.363817, y: 6.3063183, z: 11.662906}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3976,8 +3980,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &365722353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -4183,6 +4188,82 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 370695025}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &384896726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 384896727}
+  - component: {fileID: 384896729}
+  - component: {fileID: 384896728}
+  m_Layer: 5
+  m_Name: CostBg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &384896727
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384896726}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1073596499}
+  m_Father: {fileID: 945834716}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 30.2, y: -33.17801}
+  m_SizeDelta: {x: 33, y: 16}
+  m_Pivot: {x: 0.5, y: 0.49999985}
+--- !u!114 &384896728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384896726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.88235295}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &384896729
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384896726}
+  m_CullTransparentMesh: 1
 --- !u!1 &386600983 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -4669,8 +4750,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &421662895 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -4777,8 +4859,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &432632136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4879,8 +4962,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &438756398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5175,8 +5259,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &453309206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -5476,8 +5561,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &461555405 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -5871,8 +5957,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &480245426 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -5891,8 +5978,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &487817114 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -6118,8 +6206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &501842270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6308,8 +6397,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &509995259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6416,8 +6506,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &522614004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6700,8 +6791,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &560863358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6814,8 +6906,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &579383203 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -6834,8 +6927,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &582729049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6942,8 +7036,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &587275309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7050,8 +7145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &589553189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7158,8 +7254,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &600592603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7377,8 +7474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &610798592 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -7639,6 +7737,82 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 629964854}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &630414094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630414095}
+  - component: {fileID: 630414097}
+  - component: {fileID: 630414096}
+  m_Layer: 5
+  m_Name: CostBg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &630414095
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630414094}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1249130603}
+  m_Father: {fileID: 1477569692}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 29.5, y: -33.17801}
+  m_SizeDelta: {x: 33, y: 16}
+  m_Pivot: {x: 0.5, y: 0.49999985}
+--- !u!114 &630414096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630414094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.88235295}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &630414097
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630414094}
+  m_CullTransparentMesh: 1
 --- !u!1 &634050449 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -7657,8 +7831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &639408468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7871,8 +8046,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &673876758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7973,8 +8149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &676814746
 GameObject:
   m_ObjectHideFlags: 0
@@ -8194,8 +8371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &689926854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8654,8 +8832,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &749013633 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -8780,8 +8959,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &774363358 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9107,8 +9287,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &799522432 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9133,8 +9314,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &803394003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9153,8 +9335,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &805294046
 GameObject:
   m_ObjectHideFlags: 0
@@ -9383,8 +9566,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &852081953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9493,8 +9677,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &872721402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9573,6 +9758,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 872721402}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &876730694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 876730696}
+  - component: {fileID: 876730695}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &876730695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876730694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af4187dcdb267a244858a30a86899cd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartMoney: 500
+--- !u!4 &876730696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876730694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &891625912 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9591,8 +9821,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &902418276 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9752,8 +9983,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &912797887 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9778,8 +10010,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &919147191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -9898,8 +10131,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
+--- !u!224 &945834716 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8433076858357642846, guid: 32e969dfd570b5a45b247a020110c3bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 531550339027104730}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &949014738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10000,8 +10240,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &950653634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10102,8 +10343,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &951060874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10370,8 +10612,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &958438510 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -10484,8 +10727,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &966239603
 GameObject:
   m_ObjectHideFlags: 0
@@ -10711,8 +10955,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &982308554
 GameObject:
   m_ObjectHideFlags: 0
@@ -10744,6 +10989,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 359283089}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &983216728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 983216729}
+  - component: {fileID: 983216731}
+  - component: {fileID: 983216730}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &983216729
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983216728}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -39.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1425085715}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -443.17, y: -433.12}
+  m_SizeDelta: {x: 40.0475, y: 5.5699}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &983216730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983216728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8666667}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &983216731
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983216728}
+  m_CullTransparentMesh: 1
 --- !u!1 &983954949
 GameObject:
   m_ObjectHideFlags: 0
@@ -11057,8 +11377,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1049339234 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -11192,8 +11513,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1058745242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11282,6 +11604,142 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1058745242}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1073596498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1073596499}
+  - component: {fileID: 1073596501}
+  - component: {fileID: 1073596500}
+  m_Layer: 5
+  m_Name: Cost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1073596499
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073596498}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 384896727}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 10.3, y: 0}
+  m_SizeDelta: {x: 41.3828, y: 11.2496}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1073596500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073596498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '$350
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 10
+  m_fontSizeBase: 10
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1073596501
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073596498}
+  m_CullTransparentMesh: 1
 --- !u!1 &1073711328 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -11300,8 +11758,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1076300099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11519,8 +11978,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1097906727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11633,8 +12093,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1102913270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11735,8 +12196,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1103546405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11837,8 +12299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1108774344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11951,8 +12414,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1134891166 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -11971,8 +12435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1156555895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12073,8 +12538,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1164238655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12253,8 +12719,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1184917952 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -12279,8 +12746,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1217521133 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -12602,8 +13070,143 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
+--- !u!1 &1249130602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1249130603}
+  - component: {fileID: 1249130605}
+  - component: {fileID: 1249130604}
+  m_Layer: 5
+  m_Name: Cost
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1249130603
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249130602}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 630414095}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 10.3, y: 0}
+  m_SizeDelta: {x: 41.3828, y: 11.2496}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1249130604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249130602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: $200
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 10
+  m_fontSizeBase: 10
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1249130605
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249130602}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1250594912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12694,8 +13297,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1253814931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12786,8 +13390,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1257067098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12888,8 +13493,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1272217462
 GameObject:
   m_ObjectHideFlags: 0
@@ -13180,8 +13786,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1298212827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13282,8 +13889,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1299320329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13384,8 +13992,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1302438854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13486,8 +14095,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1308701065
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13594,8 +14204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1315129179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13696,8 +14307,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1316637625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13798,8 +14410,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1319838126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13900,8 +14513,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1327894859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14090,8 +14704,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1340957588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14110,8 +14725,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1351671036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14208,8 +14824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1369386361 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14228,8 +14845,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1373108031
 GameObject:
   m_ObjectHideFlags: 0
@@ -14361,8 +14979,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1376693758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14469,8 +15088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1379820982 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14495,8 +15115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1399475814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14685,8 +15306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1401739807 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14705,8 +15327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1404379915 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14813,8 +15436,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1411750711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14839,8 +15463,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1421561426 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14859,8 +15484,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1422021383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14951,8 +15577,111 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
+--- !u!1 &1425085711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1425085715}
+  - component: {fileID: 1425085714}
+  - component: {fileID: 1425085713}
+  - component: {fileID: 1425085712}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1425085712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425085711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1425085713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425085711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &1425085714
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425085711}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1425085715
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425085711}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 983216729}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 392, y: 432.5}
+  m_SizeDelta: {x: 784, y: 865}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1427201874 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -14971,8 +15700,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1427724066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15073,8 +15803,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1433468679 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -15093,8 +15824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1436397061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15185,8 +15917,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1437231460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15277,8 +16010,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1437764085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -15303,8 +16037,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1445838632
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15411,8 +16146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1458907635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15513,8 +16249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1464745978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15615,8 +16352,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1467717992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15717,8 +16455,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1469190563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15819,8 +16558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1469563761
 GameObject:
   m_ObjectHideFlags: 0
@@ -15870,8 +16610,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
+--- !u!224 &1477569692 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3333496777236773466, guid: 32e969dfd570b5a45b247a020110c3bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 531550339027104730}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1486941617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -15890,8 +16637,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1490771974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15992,8 +16740,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1498317461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16094,8 +16843,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1499220627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16264,8 +17014,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1514659125 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16290,8 +17041,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1541573204 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16388,8 +17140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1542576742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16408,8 +17161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1542654960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16428,8 +17182,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1548857666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16530,8 +17285,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1550056209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16622,8 +17378,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1550210828 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16648,8 +17405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1558351640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16750,8 +17508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1558973348 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16770,8 +17529,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1559511472 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16790,8 +17550,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1560169848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16810,8 +17571,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1567557003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -16830,8 +17592,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1570208804
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16932,8 +17695,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1581262746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17034,8 +17798,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1584338515
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17136,8 +17901,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1588302825 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17156,8 +17922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1589584318 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17176,8 +17943,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1589806872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17278,8 +18046,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1589963049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17380,8 +18149,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1593969235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17566,8 +18336,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1605426036 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17664,8 +18435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1618455206 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17690,8 +18462,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1623993245 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17710,8 +18483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1624929459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17808,8 +18582,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1639252603 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -17828,8 +18603,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1639334433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17920,8 +18696,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1655277068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18022,8 +18799,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1655446879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -18042,8 +18820,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1655733527 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -18062,8 +18841,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1668194239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18164,8 +18944,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1669248101
 GameObject:
   m_ObjectHideFlags: 0
@@ -18287,8 +19068,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1681654467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18389,8 +19171,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1690715601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18653,8 +19436,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1716939057 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -18673,8 +19457,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1723347748
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18775,8 +19560,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1730069023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18877,8 +19663,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1733435562 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -18897,8 +19684,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1737445576 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19110,8 +19898,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1762484490 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19130,8 +19919,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1768929442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19232,8 +20022,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1786431520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19324,8 +20115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1790418888 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19558,8 +20350,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1804443861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19578,8 +20371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1805413405 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -19930,8 +20724,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1813460230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20022,8 +20817,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1814623227 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20042,8 +20838,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1820677960 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20150,8 +20947,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1844682533 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20170,8 +20968,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1846161088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20272,8 +21071,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1847805503 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20292,8 +21092,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1852541929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20400,8 +21201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1857133458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20492,8 +21294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1879378714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20584,8 +21387,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1892298644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20676,8 +21480,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1904733143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20768,8 +21573,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1907369742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -20788,8 +21594,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1916642320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20890,8 +21697,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1932705857
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20992,8 +21800,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1933512492 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21012,8 +21821,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1945775054 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21032,8 +21842,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1949289304 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21058,8 +21869,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1972957887 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21078,8 +21890,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1974389580 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21098,8 +21911,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1979237953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21118,8 +21932,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1983757136 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21138,8 +21953,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &1987583799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21246,8 +22062,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1993105530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21266,8 +22083,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1993570203 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21286,8 +22104,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &1997729021 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21306,8 +22125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2009205989
 GameObject:
   m_ObjectHideFlags: 0
@@ -21357,8 +22177,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2020029323
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21459,8 +22280,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2020289290 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -21479,8 +22301,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2027661865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21571,8 +22394,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2029146952
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21673,8 +22497,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2033960190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21775,8 +22600,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2034850872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21877,8 +22703,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2044200575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21979,8 +22806,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2055707770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22081,8 +22909,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2058856982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22183,8 +23012,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2058899927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22275,8 +23105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2059810200 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -22295,8 +23126,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2061002253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22397,8 +23229,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2062159028 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -22417,8 +23250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2068703729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22519,8 +23353,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2087162085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -22539,8 +23374,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2093186151 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7330247997688303125, guid: edd457cafbac05644bfa1f8bcd150ddb,
@@ -22559,8 +23395,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2095032572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22661,8 +23498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2107229298
 GameObject:
   m_ObjectHideFlags: 0
@@ -22760,8 +23598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2122204119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22862,8 +23701,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2132566780
 GameObject:
   m_ObjectHideFlags: 0
@@ -22987,8 +23827,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2137513509
 GameObject:
   m_ObjectHideFlags: 0
@@ -23191,8 +24032,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2139290066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23293,8 +24135,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &2141214409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23395,8 +24238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1 &2141813289
 GameObject:
   m_ObjectHideFlags: 0
@@ -23520,8 +24364,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1001 &531550339027104730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23530,6 +24375,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2137513513}
     m_Modifications:
+    - target: {fileID: 111475617641479928, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 25.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 111475617641479928, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 21.8
+      objectReference: {fileID: 0}
     - target: {fileID: 2050759894010662709, guid: 32e969dfd570b5a45b247a020110c3bb,
         type: 3}
       propertyPath: m_Pivot.x
@@ -23613,7 +24468,7 @@ PrefabInstance:
     - target: {fileID: 2050759894010662709, guid: 32e969dfd570b5a45b247a020110c3bb,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -210.6926
+      value: -347
       objectReference: {fileID: 0}
     - target: {fileID: 2050759894010662709, guid: 32e969dfd570b5a45b247a020110c3bb,
         type: 3}
@@ -23674,6 +24529,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: Shop, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083033775765141112, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083033775765141112, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083033775765141112, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083033775765141112, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083033775765141112, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083033775765141112, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083033775765141112, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 90.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5083033775765141112, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 112.5
       objectReference: {fileID: 0}
     - target: {fileID: 5285220072032252812, guid: 32e969dfd570b5a45b247a020110c3bb,
         type: 3}
@@ -23746,9 +24641,84 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8857931738487445618, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857931738487445618, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857931738487445618, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857931738487445618, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857931738487445618, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857931738487445618, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859734528752187752, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859734528752187752, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859734528752187752, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859734528752187752, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859734528752187752, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859734528752187752, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8891531162680734993, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      propertyPath: m_margin.w
+      value: -3.527771
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6910280397643799926, guid: 32e969dfd570b5a45b247a020110c3bb, type: 3}
+    - {fileID: 7372242449819915213, guid: 32e969dfd570b5a45b247a020110c3bb, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3333496777236773466, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 630414095}
+    - targetCorrespondingSourceObject: {fileID: 8433076858357642846, guid: 32e969dfd570b5a45b247a020110c3bb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 384896727}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32e969dfd570b5a45b247a020110c3bb, type: 3}
 --- !u!1001 &7964186537806798764
@@ -23841,8 +24811,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7722a8a19d44ad340ac788f817ee58fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoverColor: {r: 0, g: 0.9314995, b: 1, a: 1}
+  hoverColor: {r: 1, g: 0.056822076, b: 0, a: 1}
   offset: {x: 0, y: 2.5, z: 0}
+  notEnoughMoneyColor: {r: 0.052598953, g: 0.99215686, b: 0, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -23855,6 +24826,8 @@ SceneRoots:
   - {fileID: 608483841}
   - {fileID: 445413913}
   - {fileID: 359283089}
-  - {fileID: 911514513}
+  - {fileID: 876730696}
   - {fileID: 2137513513}
   - {fileID: 1698897091}
+  - {fileID: 911514513}
+  - {fileID: 1425085715}

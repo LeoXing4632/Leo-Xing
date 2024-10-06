@@ -9,6 +9,7 @@ public class Node : MonoBehaviour
     private Color initColor;
     public Color hoverColor = Color.blue;//Change color
     public Vector3 offset = new Vector3(0, 1.5f, 0);
+    public Color notEnoughMoneyColor;
 
 
     // Start is called before the first frame update
@@ -23,6 +24,11 @@ public class Node : MonoBehaviour
     {
         if (EventSystem.current.IsPointerOverGameObject()) return;
         if (!BuildManager.Instance.CanBuild) return; //when play not select turret doe3s not change color 
+        if(BuildManager.Instance.HasEnoughMoney)
+        {
+            render.material.color = notEnoughMoneyColor;
+            return;
+        }
         render.material.color = hoverColor;//change color as the mouse touch it
     }
     private void OnMouseExit()
@@ -34,7 +40,17 @@ public class Node : MonoBehaviour
         if(EventSystem.current.IsPointerOverGameObject()) return;
         if (!BuildManager.Instance.CanBuild) return;
         Debug.Log("loding the turret");
-        BuildTurret();
+       
+        if(PlayerStatus.Money >=BuildManager.Instance.SelectedTurret.cost)
+        {
+            BuildTurret();
+
+        }
+        else
+        {
+            Debug.Log("no money to build");
+        }
+        
         
 
     }
@@ -45,6 +61,8 @@ public class Node : MonoBehaviour
     //creat turret
     public void BuildTurret()
     {
+        //Money decrease 
+        PlayerStatus.Money -= BuildManager.Instance.SelectedTurret.cost;
         Instantiate(BuildManager.Instance.SelectedTurret.prefab, GetPositon(), Quaternion.identity);//building the Turret on the nodes
     }
   
