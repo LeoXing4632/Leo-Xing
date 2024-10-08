@@ -32,6 +32,10 @@ public class NewBehaviourScript : MonoBehaviour
     }
     private void PathEnd()//move to the end and Destroy = lose 
     {
+        if(PlayerStatus.Lives > 0)
+        {
+            PlayerStatus.Lives--;
+        }
         Destroy(gameObject);
         EnemySpawner.EnemyAlive--;
         

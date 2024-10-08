@@ -6,6 +6,7 @@ public class Shop : MonoBehaviour
 {
     public TurretDesign standardTurret;
     public TurretDesign ArrowTurret;
+    public TurretDesign Turret3;
  public void OnPurseStandardTurret()
     {
         Debug.Log("BUY StandardTurret");
